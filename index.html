@@ -703,10 +703,14 @@ document.head.appendChild(ks);
 /* ── Audio element ── */
 const audio = document.createElement('audio');
 audio.id = 'songAudio';
-audio.src = 'image/mysong.mpeg';
+audio.src = 'images/mysong.mpeg';
 audio.preload = 'none';
 document.body.appendChild(audio);
 
 window.addEventListener('resize', () => {
   const c = document.getElementById('confCanvas');
   c.width = window.innerWidth; c.height = window.innerHeight;
+});
+</script>
+</body>
+</html>
